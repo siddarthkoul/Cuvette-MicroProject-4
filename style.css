@@ -1,0 +1,48 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3B4664;
+}
+
+main{
+    display:grid;
+    gap: 10px;
+}
+
+.title-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    text-transform: lowercase;
+    color: #ffffff;
+}
+
+.display-box{
+    background-color: #252d44;
+    color: #fff;
+    padding: 30px 15px;
+    text-align: left;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+}
+
+.display-box > p{
+    padding: 0px;
+    margin: 0;
+}
+
+.numpad{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
